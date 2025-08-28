@@ -17,9 +17,9 @@ from info import *
 from utils import temp
 from Script import script
 from plugins import web_server, check_expired_premium, keep_alive 
-from Lucia.Bot import vastavik
-from Lucia.util.keepalive import ping_server
-from Lucia.Bot.clients import initialize_clients
+from Ovya.Bot import vastavik
+from Ovya.util.keepalive import ping_server
+from Ovya.Bot.clients import initialize_clients
 import pyrogram.utils
 from PIL import Image
 import threading, time, requests
